@@ -1,0 +1,245 @@
+
+.navbar {
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  top: 100px;
+  transition: all 1.5s ease;
+}
+.sticky {
+  width: 100%;
+  z-index: 1;
+}
+.top-bar-left {
+  background-color: transparent;
+}
+.top-bar-left a {
+  color:black;
+}
+.top-bar ul {
+  background-color: transparent; 
+}
+.menu-text {
+  padding-left: 6px;
+}
+@media only screen and (max-width: 40em) {
+.title-small {
+    position: fixed;
+    width: 100%;
+  } 
+}
+.main {
+  background: url("pic/4.jpg") no-repeat center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.scrolled {
+  background-color: rgba(33,153,232, 0.6);
+  top:0px;
+
+ transition: all 1s ease;
+}
+@media only screen and (min-width: 40em) {
+.vh-row {
+  height: 100vh;
+  position: relative;
+  }
+}
+  .text-main {
+  margin-top: 10em;
+  margin-left: 3em;
+}
+ @media only screen and (max-width: 40em) {
+  .text-main{
+  text-align: center; 
+  margin-left: 0em;
+  }
+ }
+.second-margins {
+  margin-top: 5em;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+.third-margins {
+  margin-top: 9em;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+ .second-background {
+  background-color: #2199e8;
+  background: url("pic/monitor.jpg") no-repeat center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+ .third-background {
+ background: url("pic/2.jpg") no-repeat center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+ .fifth-background {
+  background-color: #7b9ab8;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+ .sixth-background {
+ background: url("pic/1.jpg") no-repeat center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+  @media only screen and (max-width: 40em) {
+  .third-margins{
+  margin-top: 3em;
+  margin-left: 3em;
+  margin-right: 3em;; 
+  }
+ }
+.footer {
+  color: white;
+  background: #222;
+  padding: 80px 0px;
+}
+.footer a {
+  display: block;
+}
+.span {
+  padding-right: 10px;
+}
+i {
+      color: white;
+}
+@media only screen and (min-width: 40em) {
+.icon-down {
+    margin: 0 0 20px -23px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 46px;
+    z-index: 7;
+  }
+}
+@media only screen and (max-width: 40em) {
+.icon-down {
+display: none;
+  }
+}
+#typed-strings {
+  width: 40%;
+  overflow: auto;
+  height: 25em;
+}
+@media only screen and (max-width: 40em) {
+#typing-text {
+    color: white;
+    position: absolute;
+    top: 120%;
+    left: 65%;
+    display: block;
+    width: 24%;
+    height: 23%;
+    overflow: hidden;
+  }
+} 
+@media only screen and (min-width: 40em) {
+#typing-text {
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 65%;
+    display: block;
+    width: 24%;
+    height: 23%;
+    overflow: hidden;
+  }
+} 
+.default {
+  display: none;
+}
+.P-inline {
+  display: inline;
+}
+.P-inline + .press {
+  display: inline;
+  float: right;
+}
+
+.prev:before {
+ font-family: FontAwesome;
+    content: "\f0a8";
+}
+.next:before {
+   font-family: FontAwesome;
+    content: "\f0a9";
+}
+
+.slider-div-settings {
+position: relative;
+width: 100%;
+overflow: auto;
+top: 50px;
+/*z-index: -1;*/
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+}
+
+.slider-div-settings ul {
+list-style: none;
+width: 300%;
+}
+
+.slider-div-settings ul li {
+display: block;
+float: left;
+min-height: 400px;
+-o-background-size: 100% 100%;
+-ms-background-size: 100% 100%;
+-moz-background-size: 100% 100%;
+-webkit-background-size: 100% 100%;
+background-size: 100% 100%;
+}
+
+.slider-div-settings .inner {
+padding: 360px 0 110px;
+float: left;
+vertical-align:-100px;
+}
+
+
+.slider-div-settings .dots {
+position: absolute;
+left: 0;
+right: 0;
+bottom: 20px;
+width: 100%;
+}
+
+.slider-div-settings .dots li {
+display: inline-block;
+width: 10px;
+height: 10px;
+line-height: 10px;
+margin: 0 4px;
+text-indent: -999em;
+border: 2px solid #fff;
+border-radius: 6px;
+cursor: pointer;
+opacity: .4;
+-webkit-transition: background .5s, opacity .5s;
+-moz-transition: background .5s, opacity .5s;
+transition: background .5s, opacity .5s;
+}
+
+.slider-div-settings .dots li.active {
+background: #fff;
+opacity: 1;
+}

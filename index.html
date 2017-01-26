@@ -1,0 +1,168 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foundation for Sites</title>
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/unslider.css">
+  <link rel="stylesheet" href="css/unslider-dots.css">
+</head>
+
+<body>
+  <div id="stickhere">
+    <div data-sticky-container>
+      <div class="sticky" data-sticky data-options="marginTop:0;anchor:stickhere;stickyOn:small">
+        <div class="title-bar title-small" data-responsive-toggle="example-menu" data-hide-for="medium">
+          <button class="menu-icon" type="button"></button>
+          <div class="title-bar-title">Menu</div>
+        </div>
+
+        <div class="top-bar navbar" id="example-menu">
+          <div class="top-bar-left">
+            <ul class="dropdown menu" data-dropdown-menu>
+              <li class="item"><i class="fa fa-at fa-lg"></i></li>
+              <li class="menu-text item">My Site</li>
+              <li>
+                <a href="#">One</a>
+                <ul class="menu vertical">
+                  <li><a href="#">One</a></li>
+                  <li><a href="#">Two</a></li>
+                  <li><a href="#">Three</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Two</a></li>
+              <li><a href="#">Three</a></li>
+            </ul>
+          </div>
+          <div class="top-bar-right">
+            <ul class="menu">
+              <li><input type="search" placeholder="Search"></li>
+              <li><button type="button" class="button">Search</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="main background-image1 vh-row" id="top">
+      <div class="row column">
+        <div class="text-main main-animation">
+          <h1>In condimentum facilisis porta.</h1>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.</p>
+          <a class="button medium">More</a>
+          <a class="button medium">Less</a>
+        </div>
+      </div>
+      <div class="icon-down"><a href="#second"><i class="fa fa-arrow-down fa-lg"></i></a></div>
+    </section>
+
+    <section class="second second-background vh-row" id="second">
+      <div class="row">
+        <div class="second-margins">
+          <div class="input-box">
+            
+            <input type="text" id="myText" placeholder="Enter Text Here"> 
+            <input type="submit" id="somebutton" onclick="addText();clearFields();">
+          </div>
+          <div id="typed-strings">
+            <p class="P-inline">This is a <strong>jQuery</strong> plugin.</p><button type="button" class="press fa fa-times-circle"></button><br>
+            <p class="P-inline">It <em>types</em> out sentences.</p><button type="button" class="press fa fa-times-circle"></button><br>
+            <p class="P-inline"><strong>WOW.</strong></p><button type="button" class="press fa fa-times-circle"></button><br>
+          </div>
+          <span id="typing-text"></span>
+        </div>
+      </div>
+      <div class="icon-down"><a href="#third"><i class="fa fa-arrow-down fa-lg"></i></a></div>
+    </section>
+    <section class="third third-background vh-row" id="third">
+      <div class="row">
+        <div class="third-margins ">
+          <div class="small-12 medium-4 columns">
+            <h3>Framework</h3>
+            <p>Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu
+              diam mattis viverra. Nulla fringilla, orci ac euismod semper,Vivamus luctus urna sed urna ultricies ac tempor
+              dui sagittis. magna.</p>
+            <a href="#section2" class="button medium">Section 2</a>
+          </div>
+          <div class="small-12 medium-4 columns">
+            <h3>Javascript</h3>
+            <p>Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.Vivamus luctus urna sed urna ultricies ac tempor
+              dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac
+              euismod semper, magna.</p>
+          </div>
+          <div class="small-12 medium-4 columns">
+            <h3>Jquery</h3>
+            <p>Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu
+              diam mattis viverra.Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. Nulla fringilla, orci ac
+              euismod semper, magna.</p>
+          </div>
+        </div>
+      </div>
+      <div class="icon-down"><a href="#fifth"><i class="fa fa-arrow-down fa-lg"></i></a></div>
+    </section>
+    <section class="fifth fifth-background vh-row" id="fifth">
+      <div class="row column slider-div-settings">
+        <h3>Some Example Pictures</h3>
+
+        <div class="my-slider">
+          <ul>
+          <li >
+            <img src="css/pic/slide1.jpg">
+          </li>
+          <li >
+            <img src="css/pic/slide2.jpg">
+          </li>
+          <li >
+            <img src="css/pic/slide3.jpg">
+          </li>
+          <li >
+            <img src="css/pic/slide4.jpg">
+          </li>
+          </ul>
+        </div>
+      </div>
+      <div class="icon-down"><a href="#sixth"><i class="fa fa-arrow-down fa-lg"></i></a></div>
+    </section>
+    <section class="footer" id="sixth">
+      <div class="wrap row small-up-1 medium-up-3">
+        <div class="column">
+          <h4>Contact Info</h4>
+          <hr>
+          <a href="#"><span class="span">Phone</span>223 223 2432</a>
+          <a href="#"><span class="span">Email</span>info@company.com</a>
+          <a href="#"><span class="span">Address</span>123 Main Street</a>
+          <hr>
+        </div>
+        <div class="column">
+          <h4>Site Map</h4>
+          <hr>
+          <a href="#">About Us</a>
+          <a href="#">Services</a>
+          <a href="#">Contact Us</a>
+          <hr>
+        </div>
+        <div class="column">
+          <h4>Social Media</h4>
+          <hr>
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+          <hr>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/vendor/typed.js"></script>
+  <script src="js/vendor/unslider-min.js"></script>
+</body>
+
+</html>
