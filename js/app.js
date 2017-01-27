@@ -37,17 +37,17 @@ var typedOptions = {
   showCursor: false,
 };
 $(document).scroll(function () {
-  $("#typing-text").typed(typedOptions);
-  $(document).off("scroll");
+  $('#typing-text').typed(typedOptions);
+  $(document).off('scroll');
 });
 
 
 function clearFields() {
-  document.getElementById("myText").value = "";
+  $('#myText').val("");
 }
 
 function addText() {
-  if (document.getElementById('myText').value  != "") {
+  if ($('#myText').value  != "") {
     document.getElementById('typed-strings').innerHTML += '<p class="P-inline">'
       + document.getElementById('myText').value 
       + '</p><button type="button" class="press fa fa-times-circle"></button><br>';
@@ -55,7 +55,10 @@ function addText() {
       $("#typing-text").typed(typedOptions);
   }
 };
-
+$('#somebutton').on('click', function(){
+    addText();
+    clearFields();
+});
 
 $('#typed-strings').on('click', ".press", function () {
     $(this).prev().remove();
