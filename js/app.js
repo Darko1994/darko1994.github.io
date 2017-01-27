@@ -32,7 +32,7 @@ $('a[href^="#"]').on('click', function () {
 });
 var typedOptions = {
   stringsElement: $('#typed-strings'),
-  typeSpeed: 50,
+  typeSpeed: 30,
   loop: true,
   showCursor: false,
 };
@@ -73,7 +73,7 @@ $('#typed-strings').on('click', ".press", function () {
 jQuery(document).ready(function($) {
 			$('.my-slider').unslider({
         autoplay: true,
-        speed:500,
+        speed:800,
         infinite: true,
         arrows: {
       	prev: '<a class="unslider-arrow prev"></a>',

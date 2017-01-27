@@ -29,7 +29,7 @@
   } 
 }
 .main {
-  background: url("pic/4.jpg") no-repeat center; 
+  background: url("../images/4.jpg") no-repeat center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -38,7 +38,6 @@
 .scrolled {
   background-color: rgba(33,153,232, 0.6);
   top:0px;
-
  transition: all 1s ease;
 }
 @media only screen and (min-width: 40em) {
@@ -69,14 +68,14 @@
 }
  .second-background {
   background-color: #2199e8;
-  background: url("pic/monitor.jpg") no-repeat center; 
+  background: url("../images/monitor.jpg") no-repeat center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
  }
  .third-background {
- background: url("pic/2.jpg") no-repeat center; 
+ background: url("../images/2.jpg") no-repeat center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -84,13 +83,6 @@
  }
  .fifth-background {
   background-color: #7b9ab8;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
- }
- .sixth-background {
- background: url("pic/1.jpg") no-repeat center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -114,7 +106,7 @@
 .span {
   padding-right: 10px;
 }
-i {
+.fa-arrow-down {
       color: white;
 }
 @media only screen and (min-width: 40em) {
@@ -169,7 +161,6 @@ display: none;
 }
 .P-inline + .press {
   display: inline;
-  float: right;
 }
 
 .prev:before {
@@ -242,4 +233,7 @@ transition: background .5s, opacity .5s;
 .slider-div-settings .dots li.active {
 background: #fff;
 opacity: 1;
+}
+.input-box {
+  display: inline;
 }

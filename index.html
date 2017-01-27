@@ -22,28 +22,14 @@
           <button class="menu-icon" type="button"></button>
           <div class="title-bar-title">Menu</div>
         </div>
-
         <div class="top-bar navbar" id="example-menu">
           <div class="top-bar-left">
-            <ul class="dropdown menu" data-dropdown-menu>
+            <ul class="menu">
               <li class="item"><i class="fa fa-at fa-lg"></i></li>
               <li class="menu-text item">My Site</li>
-              <li>
-                <a href="#">One</a>
-                <ul class="menu vertical">
-                  <li><a href="#">One</a></li>
-                  <li><a href="#">Two</a></li>
-                  <li><a href="#">Three</a></li>
-                </ul>
-              </li>
+              <li><a href="#">One</a></li>
               <li><a href="#">Two</a></li>
               <li><a href="#">Three</a></li>
-            </ul>
-          </div>
-          <div class="top-bar-right">
-            <ul class="menu">
-              <li><input type="search" placeholder="Search"></li>
-              <li><button type="button" class="button">Search</button></li>
             </ul>
           </div>
         </div>
@@ -60,14 +46,21 @@
       </div>
       <div class="icon-down"><a href="#second"><i class="fa fa-arrow-down fa-lg"></i></a></div>
     </section>
-
     <section class="second second-background vh-row" id="second">
       <div class="row">
         <div class="second-margins">
-          <div class="input-box">
-            
-            <input type="text" id="myText" placeholder="Enter Text Here"> 
-            <input type="submit" id="somebutton" onclick="addText();clearFields();">
+          <h1>This is a Typing plugin</h1>
+          <p>
+            You can change the typed text by adding more text by typing into the input field and pressing submit
+             or you can remove text by clicking on the <i class="press fa fa-times-circle"></i> icon next to the text
+          </p>
+          <div class="row input-box">   
+            <div class="medium-6 columns">
+              <input  type="text" id="myText" placeholder="Enter Text Here">
+            </div>
+            <div class="medium-6 columns">
+              <input class="button radius" type="submit" id="somebutton" onclick="addText();clearFields();">
+            </div>
           </div>
           <div id="typed-strings">
             <p class="P-inline">This is a <strong>jQuery</strong> plugin.</p><button type="button" class="press fa fa-times-circle"></button><br>
@@ -108,20 +101,19 @@
     <section class="fifth fifth-background vh-row" id="fifth">
       <div class="row column slider-div-settings">
         <h3>Some Example Pictures</h3>
-
         <div class="my-slider">
           <ul>
           <li >
-            <img src="css/pic/slide1.jpg">
+            <img src="images/slide1.jpg">
           </li>
           <li >
-            <img src="css/pic/slide2.jpg">
+            <img src="images/slide2.jpg">
           </li>
           <li >
-            <img src="css/pic/slide3.jpg">
+            <img src="images/slide3.jpg">
           </li>
           <li >
-            <img src="css/pic/slide4.jpg">
+            <img src="images/slide4.jpg">
           </li>
           </ul>
         </div>
@@ -133,25 +125,25 @@
         <div class="column">
           <h4>Contact Info</h4>
           <hr>
-          <a href="#"><span class="span">Phone</span>223 223 2432</a>
-          <a href="#"><span class="span">Email</span>info@company.com</a>
-          <a href="#"><span class="span">Address</span>123 Main Street</a>
+          <a><span class="span">Phone</span>064/944-9032</a>
+          <a><span class="span">Email</span>darkovojkic@gmail.com</a>
+          <a><span class="span">Address</span>Đuke Dinić 30</a>
           <hr>
         </div>
         <div class="column">
           <h4>Site Map</h4>
           <hr>
-          <a href="#">About Us</a>
-          <a href="#">Services</a>
-          <a href="#">Contact Us</a>
+          <a>About Us</a>
+          <a>Services</a>
+          <a>Contact Us</a>
           <hr>
         </div>
         <div class="column">
           <h4>Social Media</h4>
           <hr>
-          <a href="#">Facebook</a>
-          <a href="#">Twitter</a>
-          <a href="#">Instagram</a>
+          <a>Facebook</a>
+          <a>Twitter</a>
+          <a>Instagram</a>
           <hr>
         </div>
       </div>
@@ -164,5 +156,4 @@
   <script src="js/vendor/typed.js"></script>
   <script src="js/vendor/unslider-min.js"></script>
 </body>
-
 </html>
