@@ -1,4 +1,55 @@
-
+@media only screen and (max-width: 40em) {
+.title-small {
+    position: fixed;
+    width: 100%;
+  } 
+  .text-main{
+  text-align: center; 
+  margin-left: 0em;
+  }
+    .third-margins{
+  margin-top: 3em;
+  margin-left: 3em;
+  margin-right: 3em;; 
+  }
+  .icon-down {
+display: none;
+  }
+  #typing-text {
+    color: white;
+    position: absolute;
+    top: 120%;
+    left: 65%;
+    display: block;
+    width: 24%;
+    height: 23%;
+    overflow: hidden;
+  }
+}
+@media only screen and (min-width: 40em) {  
+  .vh-row {
+    height: 100vh;
+    position: relative;
+}
+  .icon-down {
+    margin: 0 0 20px -23px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+     width: 46px;
+    z-index: 7;
+  }
+#typing-text {
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 65%;
+    display: block;
+    width: 24%;
+    height: 23%;
+    overflow: hidden;
+  }
+}
 .navbar {
   background-color: transparent;
   position: absolute;
@@ -22,12 +73,6 @@
 .menu-text {
   padding-left: 6px;
 }
-@media only screen and (max-width: 40em) {
-.title-small {
-    position: fixed;
-    width: 100%;
-  } 
-}
 .main {
   background: url("../images/4.jpg") no-repeat center; 
   -webkit-background-size: cover;
@@ -40,22 +85,12 @@
   top:0px;
  transition: all 1s ease;
 }
-@media only screen and (min-width: 40em) {
-.vh-row {
-  height: 100vh;
-  position: relative;
-  }
-}
+
   .text-main {
   margin-top: 10em;
   margin-left: 3em;
 }
- @media only screen and (max-width: 40em) {
-  .text-main{
-  text-align: center; 
-  margin-left: 0em;
-  }
- }
+
 .second-margins {
   margin-top: 5em;
   margin-left: 3em;
@@ -88,13 +123,6 @@
   -o-background-size: cover;
   background-size: cover;
  }
-  @media only screen and (max-width: 40em) {
-  .third-margins{
-  margin-top: 3em;
-  margin-left: 3em;
-  margin-right: 3em;; 
-  }
- }
 .footer {
   color: white;
   background: #222;
@@ -107,52 +135,13 @@
   padding-right: 10px;
 }
 .fa-arrow-down {
-      color: white;
-}
-@media only screen and (min-width: 40em) {
-.icon-down {
-    margin: 0 0 20px -23px;
-    position: absolute;
-    bottom: -5px;
-    left: 50%;
-    width: 46px;
-    z-index: 7;
-  }
-}
-@media only screen and (max-width: 40em) {
-.icon-down {
-display: none;
-  }
+  color: white;
 }
 #typed-strings {
   width: 40%;
   overflow: auto;
   height: 25em;
 }
-@media only screen and (max-width: 40em) {
-#typing-text {
-    color: white;
-    position: absolute;
-    top: 120%;
-    left: 65%;
-    display: block;
-    width: 24%;
-    height: 23%;
-    overflow: hidden;
-  }
-} 
-@media only screen and (min-width: 40em) {
-#typing-text {
-    color: white;
-    position: absolute;
-    top: 60%;
-    left: 65%;
-    display: block;
-    width: 24%;
-    height: 23%;
-    overflow: hidden;
-  }
-} 
 .default {
   display: none;
 }
