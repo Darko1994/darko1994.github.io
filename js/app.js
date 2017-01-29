@@ -47,12 +47,12 @@ function clearFields() {
 }
 
 function addText() {
-  if ($('#myText').value  != "") {
-    document.getElementById('typed-strings').innerHTML += '<p class="P-inline">'
-      + document.getElementById('myText').value 
-      + '</p><button type="button" class="press fa fa-times-circle"></button><br>';
-        $('.default').remove();
-      $("#typing-text").typed(typedOptions);
+  if ($('#myText').val()) {
+    $('#typed-strings').append('<p class="P-inline">'
+    + $('#myText').val()
+    + '</p><button type="button" class="press fa fa-times-circle"></button><br>');
+    $('.default').remove();
+    $("#typing-text").typed(typedOptions);
   }
 };
 $('#somebutton').on('click', function(){
@@ -73,7 +73,7 @@ $('#typed-strings').on('click', ".press", function () {
 });
 
 
-jQuery(document).ready(function($) {
+$(document).ready(function($) {
 			$('.my-slider').unslider({
         autoplay: true,
         speed:800,

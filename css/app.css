@@ -1,19 +1,19 @@
 @media only screen and (max-width: 40em) {
-.title-small {
-    position: fixed;
-    width: 100%;
+  .title-small {
+      position: fixed;
+      width: 100%;
   } 
   .text-main{
-  text-align: center; 
-  margin-left: 0em;
+    text-align: center; 
+    margin-left: 0em;
   }
-    .third-margins{
-  margin-top: 3em;
-  margin-left: 3em;
-  margin-right: 3em;; 
+  .third-margins{
+    margin-top: 3em;
+    margin-left: 3em;
+    margin-right: 3em;; 
   }
   .icon-down {
-display: none;
+    display: none;
   }
   #typing-text {
     color: white;
@@ -36,10 +36,10 @@ display: none;
     position: absolute;
     bottom: -5px;
     left: 50%;
-     width: 46px;
+    width: 46px;
     z-index: 7;
   }
-#typing-text {
+  #typing-text {
     color: white;
     position: absolute;
     top: 60%;
@@ -47,7 +47,7 @@ display: none;
     display: block;
     width: 24%;
     height: 23%;
-    overflow: hidden;
+   overflow: hidden;
   }
 }
 .navbar {
@@ -86,7 +86,7 @@ display: none;
  transition: all 1s ease;
 }
 
-  .text-main {
+.text-main {
   margin-top: 10em;
   margin-left: 3em;
 }
@@ -101,7 +101,7 @@ display: none;
   margin-left: 3em;
   margin-right: 3em;
 }
- .second-background {
+.second-background {
   background-color: #2199e8;
   background: url("../images/monitor.jpg") no-repeat center; 
   -webkit-background-size: cover;
@@ -109,14 +109,14 @@ display: none;
   -o-background-size: cover;
   background-size: cover;
  }
- .third-background {
- background: url("../images/2.jpg") no-repeat center; 
+.third-background {
+  background: url("../images/2.jpg") no-repeat center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
  }
- .fifth-background {
+.fifth-background {
   background-color: #7b9ab8;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -153,75 +153,75 @@ display: none;
 }
 
 .prev:before {
- font-family: FontAwesome;
-    content: "\f0a8";
+  font-family: FontAwesome;
+  content: "\f0a8";
 }
 .next:before {
-   font-family: FontAwesome;
-    content: "\f0a9";
+  font-family: FontAwesome;
+  content: "\f0a9";
 }
 
 .slider-div-settings {
-position: relative;
-width: 100%;
-overflow: auto;
-top: 50px;
-/*z-index: -1;*/
-font-size: 18px;
-line-height: 24px;
-text-align: center;
+  position: relative;
+  width: 100%;
+  overflow: auto;
+  top: 50px;
+  /*z-index: -1;*/
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
 }
 
 .slider-div-settings ul {
-list-style: none;
-width: 300%;
+  list-style: none;
+  width: 300%;
 }
 
 .slider-div-settings ul li {
-display: block;
-float: left;
-min-height: 400px;
--o-background-size: 100% 100%;
--ms-background-size: 100% 100%;
--moz-background-size: 100% 100%;
--webkit-background-size: 100% 100%;
-background-size: 100% 100%;
+  display: block;
+  float: left;
+  min-height: 400px;
+  -o-background-size: 100% 100%;
+  -ms-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
 }
 
 .slider-div-settings .inner {
-padding: 360px 0 110px;
-float: left;
-vertical-align:-100px;
+  padding: 360px 0 110px;
+  float: left;
+  vertical-align:-100px;
 }
 
 
 .slider-div-settings .dots {
-position: absolute;
-left: 0;
-right: 0;
-bottom: 20px;
-width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  width: 100%;
 }
 
 .slider-div-settings .dots li {
-display: inline-block;
-width: 10px;
-height: 10px;
-line-height: 10px;
-margin: 0 4px;
-text-indent: -999em;
-border: 2px solid #fff;
-border-radius: 6px;
-cursor: pointer;
-opacity: .4;
--webkit-transition: background .5s, opacity .5s;
--moz-transition: background .5s, opacity .5s;
-transition: background .5s, opacity .5s;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  line-height: 10px;
+  margin: 0 4px;
+  text-indent: -999em;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: .4;
+  -webkit-transition: background .5s, opacity .5s;
+  -moz-transition: background .5s, opacity .5s;
+  transition: background .5s, opacity .5s;
 }
 
 .slider-div-settings .dots li.active {
-background: #fff;
-opacity: 1;
+  background: #fff;
+  opacity: 1;
 }
 .input-box {
   display: inline;
