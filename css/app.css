@@ -1,7 +1,7 @@
 @media only screen and (max-width: 40em) {
   .title-small {
-      position: fixed;
-      width: 100%;
+    position: fixed;
+    width: 100%;
   } 
   .text-main{
     text-align: center; 
@@ -26,6 +26,7 @@
     overflow: hidden;
   }
 }
+
 @media only screen and (min-width: 40em) {  
   .vh-row {
     height: 100vh;
@@ -50,6 +51,7 @@
    overflow: hidden;
   }
 }
+
 .navbar {
   background-color: transparent;
   position: absolute;
@@ -85,12 +87,10 @@
   top:0px;
  transition: all 1s ease;
 }
-
 .text-main {
   margin-top: 10em;
   margin-left: 3em;
 }
-
 .second-margins {
   margin-top: 5em;
   margin-left: 3em;
@@ -108,21 +108,21 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
- }
+}
 .third-background {
   background: url("../images/2.jpg") no-repeat center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
- }
+}
 .fifth-background {
   background-color: #7b9ab8;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
- }
+}
 .footer {
   color: white;
   background: #222;
@@ -151,7 +151,10 @@
 .P-inline + .press {
   display: inline;
 }
-
+.input-box {
+  display: inline;
+}
+/*Slideshow Start*/
 .prev:before {
   font-family: FontAwesome;
   content: "\f0a8";
@@ -160,23 +163,19 @@
   font-family: FontAwesome;
   content: "\f0a9";
 }
-
 .slider-div-settings {
   position: relative;
   width: 100%;
   overflow: auto;
   top: 50px;
-  /*z-index: -1;*/
   font-size: 18px;
   line-height: 24px;
   text-align: center;
 }
-
 .slider-div-settings ul {
   list-style: none;
   width: 300%;
 }
-
 .slider-div-settings ul li {
   display: block;
   float: left;
@@ -187,14 +186,11 @@
   -webkit-background-size: 100% 100%;
   background-size: 100% 100%;
 }
-
 .slider-div-settings .inner {
   padding: 360px 0 110px;
   float: left;
   vertical-align:-100px;
 }
-
-
 .slider-div-settings .dots {
   position: absolute;
   left: 0;
@@ -202,7 +198,6 @@
   bottom: 20px;
   width: 100%;
 }
-
 .slider-div-settings .dots li {
   display: inline-block;
   width: 10px;
@@ -218,11 +213,8 @@
   -moz-transition: background .5s, opacity .5s;
   transition: background .5s, opacity .5s;
 }
-
 .slider-div-settings .dots li.active {
   background: #fff;
   opacity: 1;
 }
-.input-box {
-  display: inline;
-}
+/*Slideshow End*/
